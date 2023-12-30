@@ -9,3 +9,21 @@
 // 5- Remova o último elemento do array
 
 // 6- Como ficou o array final?! E qual é o elemento 1 desse array?
+
+let animals = ["dog", "cat"];
+
+console.log(animals);
+
+animals.unshift("spider");
+
+console.log(animals);
+
+animals.shift();
+
+console.log(animals);
+
+animals.pop();
+
+console.log(animals);
+
+// R: O array ficou apenas: animals = ["Dog"]. O lemento 1 não existe, apenas o elemento 0.

@@ -5,3 +5,5 @@
 
 // // Exemplo de output: Saty is 4 code units long
 
+let username = 'Sophia';
+console.log (username + " is " + username.length + " code units long");
